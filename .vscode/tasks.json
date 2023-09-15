@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "edit c_cpp_properties.json",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "${workspaceFolder}/edit_c_cpp_properties.py"
+            ],
+            "group": "build",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
